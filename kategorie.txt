@@ -1,0 +1,12 @@
+10 KATEGORII:
+
+1.Spo³eczeñstwo
+2.Technika
+3.Gospodarka
+4.Sport
+5.Nauka
+6.Religia
+7.Geografia
+8.Sztuka
+9.Zdrowie
+10.Kultura
