@@ -1,0 +1,6 @@
+Istnieje wiele rodzajów magazynowania danych. W naszym projekcie najrozs¹dniejszym wyborem jest oparcie siê o bazê danych, która nosi nazwê drzewa decyzyjnego, b¹dŸ drzewa klasyfikacyjnego.
+
+W teorii drzewo decyzyjne jest drzewem decyzji i ich mo¿liwych konsekwencji. Jego zadaniem mo¿e byæ zarówno stworzenie planu, jak i rozwi¹zanie problemu decyzyjnego.
+Metoda drzew decyzyjnych sprawdza siê przede wszystkim, kiedy mamy problemy decyzyjne z wieloma rozga³êziaj¹cymi siê wariantami oraz kiedy podejmujemy decyzjê w warunkach ryzyka. 
+Sk³ada siê ono z korzenia oraz ga³êzi prowadz¹cych z korzenia do kolejnych wêz³ów. W ka¿dym wêŸle sprawdzany jest pewien warunek dotycz¹cy danej obserwacji, i na jego podstawie 
+wybierana jest jedna z ga³êzi prowadz¹ca do kolejnego wêz³a piêtro ni¿ej. Na dole znajduj¹ siê liœcie, w których odczytujemy do której z klas nale¿y przypisaæ dan¹ obserwacjê.
