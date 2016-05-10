@@ -3,5 +3,5 @@
 
 #ifndef WIKIPEDIA_H
 #define WIKIPEDIA_H
-FILE* open(void);
+int open(FILE* wp, char* nazwa)
 #endif
