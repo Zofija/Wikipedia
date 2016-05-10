@@ -1,0 +1,14 @@
+Obecnie dostêpna jest bardzo du¿a liczba jêzyków w których mo¿emy programowaæ. 
+Czêœæ z nich ma prostsze wczytywanie danych z pliku, czêœæ trudniejsze, jednak w naszym przypadku w grê wchodz¹ tylko dwa: C i C++.
+
+W przypadku jêzyka C, sprawa mo¿e wydawac siê ³atwiejsza, ze wzglêdu na fakt, ¿e musieliœmy ju¿ to opanowaæ na zajêcia z Informatyki. Jedank w gruncie rzeczy jest to bardziej skomplikowane i mniej intuicyjne
+C++ oferuje nam wiêksze mo¿liwoœci, a poniewa¿ jako system operacyjny wybraliœmy Windows, to bêdzie mo¿na korzystaæ z biblioteki WinAPI. Mamy równie¿ mo¿liwoœæ korzystania z funkcji, które zosta³y dostarczone wraz ze standardem C.
+
+Obs³uga plików w oparciu o narzêdzia dostarczone wraz ze standardem C++:
+
+Podstaw¹ jest bibilioteka fstream. Nastêpnie tworzymy obiekt, który umo¿liwi nam komunikacjê z plikiem: std::ifstream plik;
+Dalej otwieramy plik: plik.open("nazwa_pliku");
+Sprawdzenie, czy uda³o siê otworzyæ plik reazlizujemy komend¹ if( plik.good() );
+Odczytujemy poprzez: std::getline( plik, zmienna );
+Zamykamy plik poprzez: plik.close();
+Jak widzimy ca³y mechanizm jest bardzo podobny do porcedury w przypadku jêzyka C.
