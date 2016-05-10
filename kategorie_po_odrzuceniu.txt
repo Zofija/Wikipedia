@@ -1,0 +1,28 @@
+1.  Spo³eczeñstwo
+2.  Technika
+3.  Gospodarka
+4.  Nauka
+5.  Religia
+6.  Geografia
+7.  Sztuka
+8.  Zdrowie
+9.  Kultura
+10. Jedzenie/przepisy
+11. Biografie/osoby
+12. Muzyka
+13. Medycyna
+14. Filmy
+15. Ksi¹¿ki
+16. Historia
+17. Moda
+18. Sport i wypoczynek
+19. Motoryzacja
+20. Dom
+21. Literatura
+22. Nauki œcis³e
+23. Przyroda
+24. Rozrywka
+25. Humanistyka	
+26. Sytaucja geopolityczna
+27. Ekonomia
+
