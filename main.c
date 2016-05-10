@@ -2,7 +2,8 @@
 
 int main(void)
 {
+	int check;
 	FILE* wp;
-	wp=open(void); //funkcja "open" otwiera plik o podanej przez użytkownika nazwie i zwraca wskaźnik na plik 
+	check=open(wp);
 	return 0;
 }
