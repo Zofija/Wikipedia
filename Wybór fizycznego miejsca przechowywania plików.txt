@@ -1,0 +1,3 @@
+Wydaje mi siê, ¿e na chwilê obecn¹ najlepiej bêdzie jak bêdziemy wszystkie pliki przechowywaæ w repozytorium.
+W ten sposób bêdziemy mieli u³atwiony dostêp do nich.
+Je¿eli w póŸniejszych etapach tworzenia programu oka¿e siê, ¿e plików jest za du¿o lub zajmuj¹ za du¿o miejsca, bêdzie mo¿na zastanowiæ siê jeszcze raz nad tym zagadnieniem.
