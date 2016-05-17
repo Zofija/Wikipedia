@@ -6,6 +6,6 @@
 #include <string.h>
 
 int open(FILE* wp, char* nazwa);
-void szukaj_w_tekscie(char *slowo, char *tekst);
+void szukaj_w_tekscie(char* slowo, FILE* wp, char* nazwa);
 
 #endif
