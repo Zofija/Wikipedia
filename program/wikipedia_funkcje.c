@@ -25,5 +25,6 @@ void szukaj_w_tekscie(char* slowo, FILE* wp, char* nazwa)
 	char * wynik = strstr( slowo, tekst );
 	if (wynik != NULL) 
         printf( "Znaleziono w tekscie slowo: %s\n", wynik );
+        
         return;
 }
