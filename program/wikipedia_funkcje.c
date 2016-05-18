@@ -1,19 +1,17 @@
 #include "wikipedia_funkcje.h"
 
 
-int szukaj_w_tekscie(void)
+int szukaj_w_tekscie(char * slowo)
 {
 	int i=0;
-	char slowo[30],nazwa[30];
-	printf("podaj slowo:\n");
-	gets(slowo);
+	char nazwa[30], tekst[50];
 	gets(nazwa);
 	FILE* wp;
 	if((wp=fopen(nazwa, "r"))==NULL){
 		printf("blad");
 		return -1;
 	}
-	char tekst[50];
+
 	int wynik=1;
 	while (feof(wp)==0)
 	{

@@ -5,6 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-int szukaj_w_tekscie(void);
+int szukaj_w_tekscie(char * slowo);
 
 #endif
