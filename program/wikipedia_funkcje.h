@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-int open(FILE* wp, char* nazwa);
-void szukaj_w_tekscie(char* slowo, FILE* wp, char* nazwa);
+int szukaj_w_tekscie(void);
 
 #endif
