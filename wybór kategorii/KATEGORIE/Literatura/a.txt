@@ -1,0 +1,13 @@
+rodzaje literackie
+epika
+liryka
+dramat
+literatura piękna
+gatunki
+opowiadanie
+bajka
+powieśc
+nowela
+legenda
+baśń
+style
