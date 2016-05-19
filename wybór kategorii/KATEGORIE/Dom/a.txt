@@ -1,0 +1,6 @@
+budynek
+rodzina
+pomieszczenia
+jednorodzinny
+wielorodzinny
+mieszkanie
