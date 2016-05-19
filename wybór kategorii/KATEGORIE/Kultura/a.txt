@@ -1,0 +1,12 @@
+media
+dzieło
+zabytek
+budowla
+pomnik
+podróż
+język
+moda
+obiekt sportowy
+kino
+teatr
+opera
