@@ -1,20 +1,20 @@
 udoskonalenie
-unowoczeœnianie
-materia³
-czêœci
-rzemios³o
+unowoczeÅ›nianie
+materiaÅ‚
+czÄ™Å›ci
+rzemiosÅ‚o
 
 
-przemys³
-dzia³alnoœæ
+przemysÅ‚
+dziaÅ‚alnoÅ›Ä‡
 zatrudnienie
 rolnictwo
-us³ugi
+usÅ‚ugi
 
 
 teorie
 intelekt
-za³o¿enia
+zaÅ‚oÅ¼enia
 egzamin
 naukowiec
 
@@ -29,18 +29,18 @@ modlitwa
 mapa
 kartografia
 krajobraz
-podró¿
-po³udniki
+podrÃ³Å¼
+poÅ‚udniki
 
 
 opieka
-od¿ywianie
+odÅ¼ywianie
 dieta
 lekarz
 sen
 
 
-dzie³o
+dzieÅ‚o
 zabytek
 media
 teatr
@@ -50,15 +50,15 @@ budowla
 kalorie
 pokarm
 witaminy
-wêglowodany 
-b³onnik
+wÄ™glowodany 
+bÅ‚onnik
 
 
 celebryta
-zawód
+zawÃ³d
 polityk
 charakter
-wygl¹d
+wyglÄ…d
 
 
 muzeum
@@ -68,11 +68,11 @@ dynastia
 wiek
 
 
-aktywnoœæ
+aktywnoÅ›Ä‡
 rekreacja
 dyscypliny
 hobby
-sprawnoœæ
+sprawnoÅ›Ä‡
 
 
 rodzina
@@ -89,7 +89,7 @@ rodzaje
 gatunki
 
 
-œrodowisko
+Å›rodowisko
 natura
 organizmy
 klimat
@@ -97,21 +97,21 @@ teren
 
 
 relaks
-przyjemnoœæ
+przyjemnoÅ›Ä‡
 hobby
 zabawa
 gry
 
 
 nauka
-cz³owiek
+czÅ‚owiek
 wiedza
 psychologia
 socjologia
 
 
 polityka
-spo³eczeñstwo
+spoÅ‚eczeÅ„stwo
 kraje
 organizacje
 geografia
@@ -120,15 +120,15 @@ geografia
 produkcja
 biznes
 rynek
-gie³da
+gieÅ‚da
 dystrybucja
 
 
-rozwa¿ania
+rozwaÅ¼ania
 idea
 poznanie
 teoria
-oœwiecenie
+oÅ›wiecenie
 
 
 arts
