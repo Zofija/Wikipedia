@@ -2,8 +2,8 @@
 
 int main(void)
 {
-	int ilosc_slow=0, i, j;
-	int licz[5]; //5 licznikÛw, do sprawdzenia kaødego z 5 s≥Ûw z danej kategorii
+	int i, j;
+	int licz[5]; //5 licznik√≥w, do sprawdzenia ka≈ºdego z 5 s≈Ç√≥w z danej kategorii
 	
 	char nazwa[30], slowo [20];
 	gets(nazwa);
@@ -17,15 +17,14 @@ int main(void)
 	
 	while (feof(klucze)==0)
 	{
-		for( i=0; i< 20; i++ ) //pÍtla przechodzi przez wszystkie kategorie
+		for( i=0; i< 20; i++ ) //pƒôtla przechodzi przez wszystkie kategorie
 		{
 			printf("sprawdzanie slow kluczy dla %d kategorii", i+1);
 			
-			for(j=0; j<5; j++) //pÍtla przechodi przez wszystkie s≥owa klucze z danej kategorii
+			for(j=0; j<5; j++) //pƒôtla przechodi przez wszystkie s≈Çowa klucze z danej kategorii
 			{
 				fscanf(klucze, "%s", slowo);
-				ilosc_slow=szukaj_w_tekscie(slowo);
-				licz[j]=ilosc_slow; //zapisanie iloúci wystπpienia s≥owa do odpowiedniego licznika
+				licz[j] = szukaj_w_tekscie(slowo); //zapisanie ilo≈õci wystƒÖpienia s≈Çowa do odpowiedniego licznika
 			}
 		}
 		
