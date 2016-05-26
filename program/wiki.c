@@ -1,14 +1,18 @@
-#include "wikipedia_funkcje.h"
+#include "wiki.h"
 
 
 int szukaj_w_tekscie(char * slowo)
 {
 	int i=0;
 	char nazwa[30], tekst[50];
+
+	printf("podaj plik z tekstem: ");
 	gets(nazwa);
+
 	FILE* wp;
+
 	if((wp=fopen(nazwa, "r"))==NULL){
-		printf("blad");
+		printf("blad (tekst)");
 		return -1;
 	}
 
