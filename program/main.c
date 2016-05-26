@@ -5,30 +5,31 @@ int main(void)
 	int i, j;
 	int licz[5]; //5 liczników, do sprawdzenia każdego z 5 słów z danej kategorii
 	
-	char nazwa[30], slowo [20];
-	printf("podaj plik zawierajacy slowa klucze: ");
-	gets(nazwa);
-	
+	char nazwa[30], slowo [20]; 
+
 	FILE* klucze;
 
-	if((klucze=fopen(nazwa, "r"))==NULL){
+	if((klucze=fopen("klucze.txt", "r"))==NULL){
 		printf("blad (klucze)");
 		return -1;
 	}
 	
+	printf("podaj plik z tekstem: ");
+	gets(nazwa);
+
+
 	while (feof(klucze)==0)
 	{
 		for( i=0; i< 20; i++ ) //pętla przechodzi przez wszystkie kategorie
 		{
-			printf("sprawdzanie slow kluczy dla %d kategorii\n", i+1);
-			
+			printf("\nsprawdzanie slow kluczy dla %d. kategorii\n", i+1);
+
 			for(j=0; j<5; j++) //pętla przechodi przez wszystkie słowa klucze z danej kategorii
 			{
 				fscanf(klucze, "%s", slowo);
-				licz[j] = szukaj_w_tekscie(slowo); //zapisanie ilości wystąpienia słowa do odpowiedniego licznika
+				licz[j] = szukaj_w_tekscie(slowo, nazwa); //zapisanie ilości wystąpienia słowa do odpowiedniego licznika
 			}
 		}
-		
 	}
 	
 	return 0;

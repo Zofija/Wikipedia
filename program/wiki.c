@@ -1,13 +1,10 @@
 #include "wiki.h"
 
 
-int szukaj_w_tekscie(char * slowo)
+int szukaj_w_tekscie(char * slowo, char * nazwa)
 {
 	int i=0;
-	char nazwa[30], tekst[50];
-
-	printf("podaj plik z tekstem: ");
-	gets(nazwa);
+	char tekst[50];
 
 	FILE* wp;
 
