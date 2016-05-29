@@ -1,4 +1,4 @@
-#include "wiki.h"
+﻿#include "wiki.h"
 
 int main(void)
 {
@@ -30,7 +30,12 @@ int main(void)
 				licz[j] = szukaj_w_tekscie(slowo, nazwa); //zapisanie ilości wystąpienia słowa do odpowiedniego licznika
 				if(licz[j] > 0)
                 {
-                    FILE *wynik = fopen("sciezka folderu, w ktorym plik ma zostac zapisany", "w");
+                FILE *wynik;
+		if ((wynik=fopen("sciezka folderu, w ktorym plik ma zostac zapisany", "w"))==NULL) 
+		{
+    		 printf ("Nie mogę otworzyć pliku test.txt do zapisu!\n");
+    		 exit(1);
+     		}
                     fprintf(wynik, "Plik nalezy do kategorii %d", i+1);
                     fclose(wynik);
                 }
