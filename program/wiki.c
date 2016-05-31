@@ -1,5 +1,8 @@
 #include "wiki.h"
 
+#include "wikipedia_funkcje.h"
+#include <windows.h>
+
 
 int szukaj_w_tekscie(char * slowo, char * nazwa)
 {
@@ -17,10 +20,12 @@ int szukaj_w_tekscie(char * slowo, char * nazwa)
 	while (feof(wp)==0)
 	{
 		fscanf(wp, "%s", tekst);
-		wynik=strcmp(slowo, tekst);
+		wynik=stricmp(slowo, tekst);
 		if(wynik==0)
 			i++;
 	}
-	printf("Slowo ""%s"" wystepuje w tekscie ""%s"" %d razy\n", slowo, nazwa,i);
+	
+		printf("Slowo ""%s"" wystepuje w tekscie ""%s"" %d razy\n", slowo, nazwa,i);
+	
     return i;
 }
