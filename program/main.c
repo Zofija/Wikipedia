@@ -1,8 +1,11 @@
 ﻿#include "wiki.h"
 
+int max=0;
+int temp;
+
 int main(void)
 {
-	int i, j;
+	int i, j, kategoria;
 	int licz[5]; //5 liczników, do sprawdzenia każdego z 5 słów z danej kategorii
 
 	char nazwa[30], slowo [20];
@@ -28,20 +31,25 @@ int main(void)
 			{
 				fscanf(klucze, "%s", slowo);
 				licz[j] = szukaj_w_tekscie(slowo, nazwa); //zapisanie ilości wystąpienia słowa do odpowiedniego licznika
-				if(licz[j] > 0)
-                {
-                FILE *wynik;
-		if ((wynik=fopen("sciezka folderu, w ktorym plik ma zostac zapisany", "w"))==NULL) 
+			}
+			temp=licz[1]+licz[2]+licz[3]+licz[4]+licz[5];
+			if(temp>max)
+			{
+				max=temp;
+				kategoria=i+1;
+			}      
+		}
+		
+        FILE *wynik;
+		if ((wynik=fopen("sciezka folderu, w ktorym plik ma zostac zapisany.txt", "w"))==NULL) 
 		{
     		 printf ("Nie mogę otworzyć pliku test.txt do zapisu!\n");
     		 exit(1);
-     		}
-                    fprintf(wynik, "Plik nalezy do kategorii %d", i+1);
+     	}
+                    fprintf(wynik, "Plik nalezy do kategorii %d", kategoria);
                     fclose(wynik);
-                }
-			}
-		}
 	}
+	
 
 	return 0;
 }
